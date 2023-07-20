@@ -5,7 +5,7 @@ target 'Example-Applio' do
   # Comment the next line if you don't want to use dynamic frameworks
 
 
-pod 'Applio', :path => "../Applio/"
+pod 'Applio', :path => "../"
 
   use_frameworks!
 

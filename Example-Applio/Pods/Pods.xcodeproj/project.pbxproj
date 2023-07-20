@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		14CA48C90AA949EC92C824677A78238E /* Pods-Example-Applio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A85F3E5E223A5A108173277DDDDB58B9 /* Pods-Example-Applio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ECFD01E5192BBDF2235162FF57E5EB6 /* Pods-Example-Applio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE050887D9DFE03F6E7A403B28E4FA /* Pods-Example-Applio-dummy.m */; };
-		4040DC917E630E73C68AED4DD81E20E4 /* Applio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D0B7E5A25EDE6C5A51890F8CC218B9 /* Applio-dummy.m */; };
-		4855B44C453436A42728B0884863EF31 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7FB586B171C6AFF3FF167B14DF8820 /* GradientView.swift */; };
-		5919DB47BF5F279253CE1E028BF8823E /* TableView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF4C69AD53BB2301C8DA4C68BA12EB /* TableView+Extention.swift */; };
-		5A83150B8A941F76BDC2DD336BD5A334 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31CA8FE42EB59BEFC0BAA43D27F2188 /* UIView+Extention.swift */; };
+		4040DC917E630E73C68AED4DD81E20E4 /* Applio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7243BCA25B30B095C431B2AC464376 /* Applio-dummy.m */; };
+		4855B44C453436A42728B0884863EF31 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF165CA58DD9FAD68F1FCD0DD4B6C7EE /* GradientView.swift */; };
+		5919DB47BF5F279253CE1E028BF8823E /* TableView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE3C372AE3F04F41E0E91E6F3145165 /* TableView+Extention.swift */; };
+		5A83150B8A941F76BDC2DD336BD5A334 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BCFEA755F8306D4EA453F7C710A7DC /* UIView+Extention.swift */; };
 		6D192BC4BEF9EE9C574015258DE556EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A0C5362055B4CDFCF250A472969CE71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AE8E5249EA0D2EAA80672DCBD98FA82C /* Applio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39671B50A4C602B25A2764E3A916FD1E /* Applio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C35702CECBE102ABF1E51407FEADBE26 /* TextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E97E9503DC28787D6EBC37CF84411 /* TextField+Extention.swift */; };
-		E300BF28C31186C6FAFC28CAC5544C37 /* Applio.h in Headers */ = {isa = PBXBuildFile; fileRef = A42F9E61741C7F6CF7D99324E201EB29 /* Applio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED1E90A925393F3F80B57ADB3C029AAA /* CollectionView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F3C7D7DA549BBA07F3E4E545B6966 /* CollectionView+Extention.swift */; };
+		AE8E5249EA0D2EAA80672DCBD98FA82C /* Applio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A33131A316965959D1E79B377E09A483 /* Applio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35702CECBE102ABF1E51407FEADBE26 /* TextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216A17E898ED68A55C4E10D31518689 /* TextField+Extention.swift */; };
+		E300BF28C31186C6FAFC28CAC5544C37 /* Applio.h in Headers */ = {isa = PBXBuildFile; fileRef = D264F7B3FEA0615EEA0B007CCE288876 /* Applio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1E90A925393F3F80B57ADB3C029AAA /* CollectionView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C932B5DEF43E48AC10EA70341075738 /* CollectionView+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		97CCD5235D9B45D20F83A81E4466E755 /* PBXContainerItemProxy */ = {
+		54911C8D6618A60433F1D00ED8A0EFDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -32,33 +32,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019B3E84471D6D2FB91245A05C8A4A91 /* Applio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Applio-Info.plist"; sourceTree = "<group>"; };
+		01BCFEA755F8306D4EA453F7C710A7DC /* UIView+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extention.swift"; path = "Applio/UIView+Extention.swift"; sourceTree = "<group>"; };
+		0216A17E898ED68A55C4E10D31518689 /* TextField+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextField+Extention.swift"; path = "Applio/TextField+Extention.swift"; sourceTree = "<group>"; };
 		0294ECC054FAA5735CD7BF3ACCCB8E41 /* Pods-Example-Applio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Applio-Info.plist"; sourceTree = "<group>"; };
 		06A5BEDA2CF1CA7445F34D8326758CDB /* Pods-Example-Applio */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example-Applio"; path = Pods_Example_Applio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		078E1015612C1C82007C124736A8AD9E /* Applio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Applio.modulemap; sourceTree = "<group>"; };
+		1C932B5DEF43E48AC10EA70341075738 /* CollectionView+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CollectionView+Extention.swift"; path = "Applio/CollectionView+Extention.swift"; sourceTree = "<group>"; };
 		1DA1CBD1F9F7A6264CEA9C658E108A65 /* Pods-Example-Applio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-Applio-frameworks.sh"; sourceTree = "<group>"; };
-		39671B50A4C602B25A2764E3A916FD1E /* Applio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Applio-umbrella.h"; sourceTree = "<group>"; };
+		3C68E6A0A6B8EAB989C5BDC8BF0E24CF /* Applio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Applio.debug.xcconfig; sourceTree = "<group>"; };
 		42A79E670DBAF7BD3023E41191F21BC4 /* Applio */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Applio; path = Applio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DA11D49CCF3BCB22FA0394441EB97D /* Pods-Example-Applio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-Applio.debug.xcconfig"; sourceTree = "<group>"; };
-		475A340D975A67A844201268CC747E8E /* Applio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Applio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4C96269000E32E7EF6946E420EB1E7D5 /* Applio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Applio-prefix.pch"; sourceTree = "<group>"; };
 		4F123BC9180A98AA8AA996FC7CEBA7C5 /* Pods-Example-Applio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-Applio-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6DB5B4B0E4B5850E178DB7431D4EB0D7 /* Pods-Example-Applio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-Applio.release.xcconfig"; sourceTree = "<group>"; };
-		6E2F3C7D7DA549BBA07F3E4E545B6966 /* CollectionView+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CollectionView+Extention.swift"; path = "Applio/CollectionView+Extention.swift"; sourceTree = "<group>"; };
+		6F45F016E0609B754BA11D2967C7A39A /* Applio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Applio-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DC4AAAFDDE6F99BB06ECEBA6084E95A /* Pods-Example-Applio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example-Applio.modulemap"; sourceTree = "<group>"; };
-		80934094EF7D91F203EF0B5701A5600E /* Applio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Applio.debug.xcconfig; sourceTree = "<group>"; };
+		985ACF39FD90A66F3F9BA54DFE8402FB /* Applio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Applio-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFE050887D9DFE03F6E7A403B28E4FA /* Pods-Example-Applio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-Applio-dummy.m"; sourceTree = "<group>"; };
-		A42F9E61741C7F6CF7D99324E201EB29 /* Applio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Applio.h; path = Applio/Applio.h; sourceTree = "<group>"; };
+		A04714B372F3BC66A96CA1F2A05A0DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A33131A316965959D1E79B377E09A483 /* Applio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Applio-umbrella.h"; sourceTree = "<group>"; };
 		A85F3E5E223A5A108173277DDDDB58B9 /* Pods-Example-Applio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-Applio-umbrella.h"; sourceTree = "<group>"; };
-		AB7FB586B171C6AFF3FF167B14DF8820 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Applio/GradientView.swift; sourceTree = "<group>"; };
-		ADCF4C69AD53BB2301C8DA4C68BA12EB /* TableView+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TableView+Extention.swift"; path = "Applio/TableView+Extention.swift"; sourceTree = "<group>"; };
-		ADDE795B2B8B60ABD17E840F454C523E /* Applio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Applio.modulemap; sourceTree = "<group>"; };
-		BA6E97E9503DC28787D6EBC37CF84411 /* TextField+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TextField+Extention.swift"; path = "Applio/TextField+Extention.swift"; sourceTree = "<group>"; };
+		AA7243BCA25B30B095C431B2AC464376 /* Applio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Applio-dummy.m"; sourceTree = "<group>"; };
+		BAACD0A651DC55FB51B3351503577CC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF165CA58DD9FAD68F1FCD0DD4B6C7EE /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Applio/GradientView.swift; sourceTree = "<group>"; };
 		C0E2F654EFA823378BF6D5F38431E92F /* Pods-Example-Applio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Applio-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2D0B7E5A25EDE6C5A51890F8CC218B9 /* Applio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Applio-dummy.m"; sourceTree = "<group>"; };
-		C31CA8FE42EB59BEFC0BAA43D27F2188 /* UIView+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extention.swift"; path = "Applio/UIView+Extention.swift"; sourceTree = "<group>"; };
-		F7B6606F33E5294F8D8EF3584C9529B2 /* Applio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Applio.release.xcconfig; sourceTree = "<group>"; };
+		D264F7B3FEA0615EEA0B007CCE288876 /* Applio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Applio.h; path = Applio/Applio.h; sourceTree = "<group>"; };
+		F1B22377258E5A9143353951489D8529 /* Applio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Applio.release.xcconfig; sourceTree = "<group>"; };
+		FCB86259B6B57D367271893F129BEDC8 /* Applio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Applio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDE3C372AE3F04F41E0E91E6F3145165 /* TableView+Extention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TableView+Extention.swift"; path = "Applio/TableView+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,20 +83,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		484EE0FF87E99107281B7E2248E7B857 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BF819DCADB82270E7F0CD881BC86D8EA /* Applio */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		57A53033FE34C1161B7098DD092EC525 /* Applio */ = {
+			isa = PBXGroup;
+			children = (
+				D264F7B3FEA0615EEA0B007CCE288876 /* Applio.h */,
+				1C932B5DEF43E48AC10EA70341075738 /* CollectionView+Extention.swift */,
+				BF165CA58DD9FAD68F1FCD0DD4B6C7EE /* GradientView.swift */,
+				FDE3C372AE3F04F41E0E91E6F3145165 /* TableView+Extention.swift */,
+				0216A17E898ED68A55C4E10D31518689 /* TextField+Extention.swift */,
+				01BCFEA755F8306D4EA453F7C710A7DC /* UIView+Extention.swift */,
+				8C36925E651E2B7548BBD9FC308DBF7B /* Pod */,
+				CA5A9105EDEAB844DC06CBC95B713F82 /* Support Files */,
+			);
+			name = Applio;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8C36925E651E2B7548BBD9FC308DBF7B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FCB86259B6B57D367271893F129BEDC8 /* Applio.podspec */,
+				A04714B372F3BC66A96CA1F2A05A0DC6 /* LICENSE */,
+				BAACD0A651DC55FB51B3351503577CC6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9B4287B0941D690DFF6824637FB51165 /* Pods-Example-Applio */ = {
@@ -114,28 +134,12 @@
 			path = "Target Support Files/Pods-Example-Applio";
 			sourceTree = "<group>";
 		};
-		BF819DCADB82270E7F0CD881BC86D8EA /* Applio */ = {
+		C1949F3D9EDD0043CE6AD384DCB104E7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A42F9E61741C7F6CF7D99324E201EB29 /* Applio.h */,
-				6E2F3C7D7DA549BBA07F3E4E545B6966 /* CollectionView+Extention.swift */,
-				AB7FB586B171C6AFF3FF167B14DF8820 /* GradientView.swift */,
-				ADCF4C69AD53BB2301C8DA4C68BA12EB /* TableView+Extention.swift */,
-				BA6E97E9503DC28787D6EBC37CF84411 /* TextField+Extention.swift */,
-				C31CA8FE42EB59BEFC0BAA43D27F2188 /* UIView+Extention.swift */,
-				BFD2E3FF995AE93BE0E6BACBB830ABCC /* Pod */,
-				E79789D1C6B99385E8F499B51954899A /* Support Files */,
+				57A53033FE34C1161B7098DD092EC525 /* Applio */,
 			);
-			name = Applio;
-			path = ../../Applio;
-			sourceTree = "<group>";
-		};
-		BFD2E3FF995AE93BE0E6BACBB830ABCC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				475A340D975A67A844201268CC747E8E /* Applio.podspec */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C432F1DBCFF79910665EC523A884C3BC /* Targets Support Files */ = {
@@ -146,11 +150,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CA5A9105EDEAB844DC06CBC95B713F82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				078E1015612C1C82007C124736A8AD9E /* Applio.modulemap */,
+				AA7243BCA25B30B095C431B2AC464376 /* Applio-dummy.m */,
+				6F45F016E0609B754BA11D2967C7A39A /* Applio-Info.plist */,
+				985ACF39FD90A66F3F9BA54DFE8402FB /* Applio-prefix.pch */,
+				A33131A316965959D1E79B377E09A483 /* Applio-umbrella.h */,
+				3C68E6A0A6B8EAB989C5BDC8BF0E24CF /* Applio.debug.xcconfig */,
+				F1B22377258E5A9143353951489D8529 /* Applio.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example-Applio/Pods/Target Support Files/Applio";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				484EE0FF87E99107281B7E2248E7B857 /* Development Pods */,
+				C1949F3D9EDD0043CE6AD384DCB104E7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				EAF422B9BE6E301ABDFEE6AD024D9BD2 /* Products */,
 				C432F1DBCFF79910665EC523A884C3BC /* Targets Support Files */,
@@ -163,21 +182,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E79789D1C6B99385E8F499B51954899A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ADDE795B2B8B60ABD17E840F454C523E /* Applio.modulemap */,
-				C2D0B7E5A25EDE6C5A51890F8CC218B9 /* Applio-dummy.m */,
-				019B3E84471D6D2FB91245A05C8A4A91 /* Applio-Info.plist */,
-				4C96269000E32E7EF6946E420EB1E7D5 /* Applio-prefix.pch */,
-				39671B50A4C602B25A2764E3A916FD1E /* Applio-umbrella.h */,
-				80934094EF7D91F203EF0B5701A5600E /* Applio.debug.xcconfig */,
-				F7B6606F33E5294F8D8EF3584C9529B2 /* Applio.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Example-Applio/Pods/Target Support Files/Applio";
 			sourceTree = "<group>";
 		};
 		EAF422B9BE6E301ABDFEE6AD024D9BD2 /* Products */ = {
@@ -224,7 +228,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A26541CB97E6ADD0BB1E3CD6CC3BA9DF /* PBXTargetDependency */,
+				1B1D298A7E236C44B783D09039BDAD1F /* PBXTargetDependency */,
 			);
 			name = "Pods-Example-Applio";
 			productName = Pods_Example_Applio;
@@ -319,18 +323,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A26541CB97E6ADD0BB1E3CD6CC3BA9DF /* PBXTargetDependency */ = {
+		1B1D298A7E236C44B783D09039BDAD1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Applio;
 			target = 475F2EE7C9C5C431A3797EDF2BC83AAC /* Applio */;
-			targetProxy = 97CCD5235D9B45D20F83A81E4466E755 /* PBXContainerItemProxy */;
+			targetProxy = 54911C8D6618A60433F1D00ED8A0EFDE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0376A3F36D27B583C2354624FF30B656 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80934094EF7D91F203EF0B5701A5600E /* Applio.debug.xcconfig */;
+			baseConfigurationReference = 3C68E6A0A6B8EAB989C5BDC8BF0E24CF /* Applio.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,7 +572,7 @@
 		};
 		DF7D02FC6FA208DD85E202AF6ED143D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7B6606F33E5294F8D8EF3584C9529B2 /* Applio.release.xcconfig */;
+			baseConfigurationReference = F1B22377258E5A9143353951489D8529 /* Applio.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
