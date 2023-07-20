@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		59FC9C5E2A699B200021C383 /* Applio.docc in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C5D2A699B200021C383 /* Applio.docc */; };
 		59FC9C5F2A699B200021C383 /* Applio.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FC9C5C2A699B200021C383 /* Applio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FC9C872A699E430021C383 /* TextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C862A699E430021C383 /* TextField+Extention.swift */; };
+		59FC9C892A699E7C0021C383 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C882A699E7C0021C383 /* UIView+Extention.swift */; };
+		59FC9C8B2A699E9B0021C383 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C8A2A699E9B0021C383 /* GradientView.swift */; };
+		59FC9C8D2A699EBA0021C383 /* CollectionView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */; };
+		59FC9C8F2A699ECC0021C383 /* TableView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59FC9C592A699B200021C383 /* Applio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Applio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FC9C5C2A699B200021C383 /* Applio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Applio.h; sourceTree = "<group>"; };
 		59FC9C5D2A699B200021C383 /* Applio.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Applio.docc; sourceTree = "<group>"; };
+		59FC9C862A699E430021C383 /* TextField+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+Extention.swift"; sourceTree = "<group>"; };
+		59FC9C882A699E7C0021C383 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		59FC9C8A2A699E9B0021C383 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionView+Extention.swift"; sourceTree = "<group>"; };
+		59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,11 @@
 		59FC9C5B2A699B200021C383 /* Applio */ = {
 			isa = PBXGroup;
 			children = (
+				59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */,
+				59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */,
+				59FC9C8A2A699E9B0021C383 /* GradientView.swift */,
+				59FC9C882A699E7C0021C383 /* UIView+Extention.swift */,
+				59FC9C862A699E430021C383 /* TextField+Extention.swift */,
 				59FC9C5C2A699B200021C383 /* Applio.h */,
 				59FC9C5D2A699B200021C383 /* Applio.docc */,
 			);
@@ -132,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59FC9C872A699E430021C383 /* TextField+Extention.swift in Sources */,
 				59FC9C5E2A699B200021C383 /* Applio.docc in Sources */,
+				59FC9C8F2A699ECC0021C383 /* TableView+Extention.swift in Sources */,
+				59FC9C8D2A699EBA0021C383 /* CollectionView+Extention.swift in Sources */,
+				59FC9C8B2A699E9B0021C383 /* GradientView.swift in Sources */,
+				59FC9C892A699E7C0021C383 /* UIView+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
