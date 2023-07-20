@@ -4,4 +4,4 @@
  
  # pod 'Applio'
  
- current version of Applio (1.0.3)
+ current version of Applio (1.0.4)
