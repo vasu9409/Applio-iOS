@@ -1,6 +1,0 @@
-framework module Applio {
-  umbrella header "Applio-umbrella.h"
-
-  export *
-  module * { export * }
-}

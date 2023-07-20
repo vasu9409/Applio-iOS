@@ -7,103 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32961D2185CF49C83F3FC647 /* Pods_Example_Applio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB130C0CC17DAF081F37FB9F /* Pods_Example_Applio.framework */; };
-		59FC9C722A699DA10021C383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C712A699DA10021C383 /* AppDelegate.swift */; };
-		59FC9C742A699DA10021C383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C732A699DA10021C383 /* SceneDelegate.swift */; };
-		59FC9C762A699DA10021C383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C752A699DA10021C383 /* ViewController.swift */; };
-		59FC9C792A699DA10021C383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FC9C772A699DA10021C383 /* Main.storyboard */; };
-		59FC9C7B2A699DA20021C383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FC9C7A2A699DA20021C383 /* Assets.xcassets */; };
-		59FC9C7E2A699DA20021C383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FC9C7C2A699DA20021C383 /* LaunchScreen.storyboard */; };
+		59C8944F2A69B6F500F42A8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C8944E2A69B6F500F42A8D /* AppDelegate.swift */; };
+		59C894512A69B6F500F42A8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C894502A69B6F500F42A8D /* SceneDelegate.swift */; };
+		59C894532A69B6F500F42A8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C894522A69B6F500F42A8D /* ViewController.swift */; };
+		59C894562A69B6F500F42A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C894542A69B6F500F42A8D /* Main.storyboard */; };
+		59C894582A69B6F600F42A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C894572A69B6F600F42A8D /* Assets.xcassets */; };
+		59C8945B2A69B6F600F42A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C894592A69B6F600F42A8D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		59FC9C6E2A699DA10021C383 /* Example-Applio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-Applio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59FC9C712A699DA10021C383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59FC9C732A699DA10021C383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59FC9C752A699DA10021C383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		59FC9C782A699DA10021C383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		59FC9C7A2A699DA20021C383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		59FC9C7D2A699DA20021C383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		59FC9C7F2A699DA20021C383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E42DE3F6CB9B70112AA9034 /* Pods-Example-Applio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-Applio.debug.xcconfig"; path = "Target Support Files/Pods-Example-Applio/Pods-Example-Applio.debug.xcconfig"; sourceTree = "<group>"; };
-		7B289BAD10DEABADD4B87814 /* Pods-Example-Applio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-Applio.release.xcconfig"; path = "Target Support Files/Pods-Example-Applio/Pods-Example-Applio.release.xcconfig"; sourceTree = "<group>"; };
-		DB130C0CC17DAF081F37FB9F /* Pods_Example_Applio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_Applio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C8944B2A69B6F500F42A8D /* Example-Applio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-Applio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C8944E2A69B6F500F42A8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59C894502A69B6F500F42A8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59C894522A69B6F500F42A8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59C894552A69B6F500F42A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59C894572A69B6F600F42A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59C8945A2A69B6F600F42A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59C8945C2A69B6F600F42A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59FC9C6B2A699DA10021C383 /* Frameworks */ = {
+		59C894482A69B6F500F42A8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32961D2185CF49C83F3FC647 /* Pods_Example_Applio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2133053FFDAA7EFCFBF716AC /* Pods */ = {
+		59C894422A69B6F500F42A8D = {
 			isa = PBXGroup;
 			children = (
-				5E42DE3F6CB9B70112AA9034 /* Pods-Example-Applio.debug.xcconfig */,
-				7B289BAD10DEABADD4B87814 /* Pods-Example-Applio.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		59FC9C652A699DA10021C383 = {
-			isa = PBXGroup;
-			children = (
-				59FC9C702A699DA10021C383 /* Example-Applio */,
-				59FC9C6F2A699DA10021C383 /* Products */,
-				2133053FFDAA7EFCFBF716AC /* Pods */,
-				6A34BF848E3CB5498E211203 /* Frameworks */,
+				59C8944D2A69B6F500F42A8D /* Example-Applio */,
+				59C8944C2A69B6F500F42A8D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		59FC9C6F2A699DA10021C383 /* Products */ = {
+		59C8944C2A69B6F500F42A8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59FC9C6E2A699DA10021C383 /* Example-Applio.app */,
+				59C8944B2A69B6F500F42A8D /* Example-Applio.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59FC9C702A699DA10021C383 /* Example-Applio */ = {
+		59C8944D2A69B6F500F42A8D /* Example-Applio */ = {
 			isa = PBXGroup;
 			children = (
-				59FC9C712A699DA10021C383 /* AppDelegate.swift */,
-				59FC9C732A699DA10021C383 /* SceneDelegate.swift */,
-				59FC9C752A699DA10021C383 /* ViewController.swift */,
-				59FC9C772A699DA10021C383 /* Main.storyboard */,
-				59FC9C7A2A699DA20021C383 /* Assets.xcassets */,
-				59FC9C7C2A699DA20021C383 /* LaunchScreen.storyboard */,
-				59FC9C7F2A699DA20021C383 /* Info.plist */,
+				59C8944E2A69B6F500F42A8D /* AppDelegate.swift */,
+				59C894502A69B6F500F42A8D /* SceneDelegate.swift */,
+				59C894522A69B6F500F42A8D /* ViewController.swift */,
+				59C894542A69B6F500F42A8D /* Main.storyboard */,
+				59C894572A69B6F600F42A8D /* Assets.xcassets */,
+				59C894592A69B6F600F42A8D /* LaunchScreen.storyboard */,
+				59C8945C2A69B6F600F42A8D /* Info.plist */,
 			);
 			path = "Example-Applio";
-			sourceTree = "<group>";
-		};
-		6A34BF848E3CB5498E211203 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DB130C0CC17DAF081F37FB9F /* Pods_Example_Applio.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59FC9C6D2A699DA10021C383 /* Example-Applio */ = {
+		59C8944A2A69B6F500F42A8D /* Example-Applio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59FC9C822A699DA20021C383 /* Build configuration list for PBXNativeTarget "Example-Applio" */;
+			buildConfigurationList = 59C8945F2A69B6F600F42A8D /* Build configuration list for PBXNativeTarget "Example-Applio" */;
 			buildPhases = (
-				D5942480D468645939EB550E /* [CP] Check Pods Manifest.lock */,
-				59FC9C6A2A699DA10021C383 /* Sources */,
-				59FC9C6B2A699DA10021C383 /* Frameworks */,
-				59FC9C6C2A699DA10021C383 /* Resources */,
-				6B61A344238997E53A8CE34F /* [CP] Embed Pods Frameworks */,
+				59C894472A69B6F500F42A8D /* Sources */,
+				59C894482A69B6F500F42A8D /* Frameworks */,
+				59C894492A69B6F500F42A8D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -111,25 +84,25 @@
 			);
 			name = "Example-Applio";
 			productName = "Example-Applio";
-			productReference = 59FC9C6E2A699DA10021C383 /* Example-Applio.app */;
+			productReference = 59C8944B2A69B6F500F42A8D /* Example-Applio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		59FC9C662A699DA10021C383 /* Project object */ = {
+		59C894432A69B6F500F42A8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					59FC9C6D2A699DA10021C383 = {
+					59C8944A2A69B6F500F42A8D = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 59FC9C692A699DA10021C383 /* Build configuration list for PBXProject "Example-Applio" */;
+			buildConfigurationList = 59C894462A69B6F500F42A8D /* Build configuration list for PBXProject "Example-Applio" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,97 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 59FC9C652A699DA10021C383;
-			productRefGroup = 59FC9C6F2A699DA10021C383 /* Products */;
+			mainGroup = 59C894422A69B6F500F42A8D;
+			productRefGroup = 59C8944C2A69B6F500F42A8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59FC9C6D2A699DA10021C383 /* Example-Applio */,
+				59C8944A2A69B6F500F42A8D /* Example-Applio */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		59FC9C6C2A699DA10021C383 /* Resources */ = {
+		59C894492A69B6F500F42A8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FC9C7E2A699DA20021C383 /* LaunchScreen.storyboard in Resources */,
-				59FC9C7B2A699DA20021C383 /* Assets.xcassets in Resources */,
-				59FC9C792A699DA10021C383 /* Main.storyboard in Resources */,
+				59C8945B2A69B6F600F42A8D /* LaunchScreen.storyboard in Resources */,
+				59C894582A69B6F600F42A8D /* Assets.xcassets in Resources */,
+				59C894562A69B6F500F42A8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		6B61A344238997E53A8CE34F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example-Applio/Pods-Example-Applio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example-Applio/Pods-Example-Applio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example-Applio/Pods-Example-Applio-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D5942480D468645939EB550E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Example-Applio-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		59FC9C6A2A699DA10021C383 /* Sources */ = {
+		59C894472A69B6F500F42A8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FC9C762A699DA10021C383 /* ViewController.swift in Sources */,
-				59FC9C722A699DA10021C383 /* AppDelegate.swift in Sources */,
-				59FC9C742A699DA10021C383 /* SceneDelegate.swift in Sources */,
+				59C894532A69B6F500F42A8D /* ViewController.swift in Sources */,
+				59C8944F2A69B6F500F42A8D /* AppDelegate.swift in Sources */,
+				59C894512A69B6F500F42A8D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		59FC9C772A699DA10021C383 /* Main.storyboard */ = {
+		59C894542A69B6F500F42A8D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				59FC9C782A699DA10021C383 /* Base */,
+				59C894552A69B6F500F42A8D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		59FC9C7C2A699DA20021C383 /* LaunchScreen.storyboard */ = {
+		59C894592A69B6F600F42A8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				59FC9C7D2A699DA20021C383 /* Base */,
+				59C8945A2A69B6F600F42A8D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -235,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		59FC9C802A699DA20021C383 /* Debug */ = {
+		59C8945D2A69B6F600F42A8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		59FC9C812A699DA20021C383 /* Release */ = {
+		59C8945E2A69B6F600F42A8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -349,9 +280,8 @@
 			};
 			name = Release;
 		};
-		59FC9C832A699DA20021C383 /* Debug */ = {
+		59C894602A69B6F600F42A8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E42DE3F6CB9B70112AA9034 /* Pods-Example-Applio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,7 +294,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,18 +301,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Example-Applio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		59FC9C842A699DA20021C383 /* Release */ = {
+		59C894612A69B6F600F42A8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B289BAD10DEABADD4B87814 /* Pods-Example-Applio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,7 +321,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,37 +328,34 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Example-Applio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59FC9C692A699DA10021C383 /* Build configuration list for PBXProject "Example-Applio" */ = {
+		59C894462A69B6F500F42A8D /* Build configuration list for PBXProject "Example-Applio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59FC9C802A699DA20021C383 /* Debug */,
-				59FC9C812A699DA20021C383 /* Release */,
+				59C8945D2A69B6F600F42A8D /* Debug */,
+				59C8945E2A69B6F600F42A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59FC9C822A699DA20021C383 /* Build configuration list for PBXNativeTarget "Example-Applio" */ = {
+		59C8945F2A69B6F600F42A8D /* Build configuration list for PBXNativeTarget "Example-Applio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59FC9C832A699DA20021C383 /* Debug */,
-				59FC9C842A699DA20021C383 /* Release */,
+				59C894602A69B6F600F42A8D /* Debug */,
+				59C894612A69B6F600F42A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 59FC9C662A699DA10021C383 /* Project object */;
+	rootObject = 59C894432A69B6F500F42A8D /* Project object */;
 }
