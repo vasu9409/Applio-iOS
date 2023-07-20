@@ -103,6 +103,7 @@
 				59FC9C6A2A699DA10021C383 /* Sources */,
 				59FC9C6B2A699DA10021C383 /* Frameworks */,
 				59FC9C6C2A699DA10021C383 /* Resources */,
+				6B61A344238997E53A8CE34F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6B61A344238997E53A8CE34F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example-Applio/Pods-Example-Applio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example-Applio/Pods-Example-Applio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example-Applio/Pods-Example-Applio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D5942480D468645939EB550E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
