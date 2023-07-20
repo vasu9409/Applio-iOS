@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Applio"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "We are creating some function which have use daily."
   spec.description  = "AppCommonLib is a versatile and efficient library that provides a collection of essential, reusable functions for various app development projects. Simplify your coding process and enhance productivity by incorporating these common functions into your applications. This open-source library is designed to streamline development tasks, reduce redundancy, and foster collaboration among developers. Empower your app development with AppCommonLib! 🚀
 
@@ -10,7 +10,7 @@ Remember to tailor the description according to the actual name of your reposito
   spec.license      = "MIT"
   spec.author       = { "Vasu Savaliya" => "vasusavaliya0000@gmail.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/vasu9409/Applio.git", :tag => "1.0.1" }
-  spec.source_files  = "Applio", "Applio/**/*.{h,m}"
+  spec.source       = { :git => "https://github.com/vasu9409/Applio.git", :tag => "1.0.2" }
+  spec.source_files  = "Applio/**/*.{h,m}"
 
 end
