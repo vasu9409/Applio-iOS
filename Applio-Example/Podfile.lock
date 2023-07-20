@@ -1,0 +1,16 @@
+PODS:
+  - Applio (1.0.3)
+
+DEPENDENCIES:
+  - Applio (from `../Applio/`)
+
+EXTERNAL SOURCES:
+  Applio:
+    :path: "../Applio/"
+
+SPEC CHECKSUMS:
+  Applio: 39037abcf817a8dbf4e81eef5a4d031fe3c668bb
+
+PODFILE CHECKSUM: 0e0be09837c2b55031d80bf67244596256069f6e
+
+COCOAPODS: 1.12.1
