@@ -1,4 +1,4 @@
-This library provides an daily uses func. For convenience, we added categories for UI elements like `UIView`.
+This library provides an daily uses functions For convenience, we added categories for UI elements like `UIView`.
 
 ## Features
 
