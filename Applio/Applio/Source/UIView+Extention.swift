@@ -1,6 +1,6 @@
 //
-//  CustomeView.swift
-//  Bloodmeter
+//  UIView+Extention.swift
+//  Applio
 //
 //  Created by VASU SAVALIYA on 30/11/22.
 //
@@ -10,89 +10,107 @@ import UIKit
 
 extension UIView {
     
-    @IBInspectable var isCircleOn: Bool {
+    /*
+     Create circle Layout of view
+     */
+    @IBInspectable
+    var isCircleOn: Bool {
         get {
             return self.isCircleOn
-        }
-        set {
+        } set {
             if newValue {
                 layer.cornerRadius = self.frame.height / 2
             }
         }
     }
     
-    @IBInspectable var cornerRadius: CGFloat {
+    /*
+     Set corner radius of UIView
+     */
+    @IBInspectable
+    var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
-        }
-        set {
+        } set {
             layer.cornerRadius = newValue
         }
     }
     
-    @IBInspectable var borderWidth: CGFloat {
+    /*
+     Set border width of UIView
+     */
+    @IBInspectable
+    var borderWidth: CGFloat {
         get {
             return layer.borderWidth
-        }
-        set {
+        } set {
             layer.borderWidth = newValue
         }
     }
     
-    @IBInspectable var borderColor: UIColor? {
+    /*
+     Set border color of UIView
+     */
+    @IBInspectable
+    var borderColor: UIColor? {
         get {
             return UIColor(cgColor: layer.borderColor!)
-        }
-        set {
+        } set {
             layer.borderColor = newValue?.cgColor
         }
     }
     
+    /*
+     Set shadow radius of UIView
+     */
     @IBInspectable
     var shadowRadius: CGFloat {
         get {
             return layer.shadowRadius
-        }
-        set {
+        } set {
             layer.shadowRadius = newValue
         }
     }
     
+    /*
+     Set shadow offset of UIView
+     */
     @IBInspectable
     var shadowOffset : CGSize{
-
         get{
             return layer.shadowOffset
-        }set{
-
+        } set {
             layer.shadowOffset = newValue
         }
     }
 
+    /*
+     Set shadow color of UIView
+     */
     @IBInspectable
     var shadowColor : UIColor{
         get{
             return UIColor.init(cgColor: layer.shadowColor!)
-        }
-        set {
+        } set {
             layer.shadowColor = newValue.cgColor
         }
     }
     
+    /*
+     Set shadow opacity of UIView
+     */
     @IBInspectable
     var shadowOpacity : Float {
-
         get{
             return layer.shadowOpacity
-        }
-        set {
-
+        } set {
             layer.shadowOpacity = newValue
-
         }
     }
     
-    // DROP SHADOW
+    /*
+     Drop shadow of UIView
+     */
     func dropShadow(scale: Bool = true, shadow: CGFloat = 10) {
         
         layer.masksToBounds = false

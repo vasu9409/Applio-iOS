@@ -1,6 +1,6 @@
 //
-//  FradientView.swift
-//  VideoDownloader
+//  GradientView.swift
+//  Applio
 //
 //  Created by VASU SAVALIYA on 24/06/23.
 //
@@ -8,39 +8,43 @@
 import Foundation
 import UIKit
 
-@IBDesignable
 class GradientView: UIView {
     
-    // MARK: - IBInspectable properties
-    /// Renders vertical gradient if true else horizontal
+    /* MARK: - IBInspectable properties
+     Renders vertical gradient if true else horizontal
+     */
     @IBInspectable public var verticalGradient: Bool = true {
         didSet {
             updateUI()
         }
     }
     
-    /// Start color of the gradient
+    /*
+     Start color of the gradient
+     */
     @IBInspectable public var startColor: UIColor = .clear {
         didSet {
             updateUI()
         }
     }
     
-    /// Start color of the gradient
+    /*
+     Mid color of the gradient
+     */
     @IBInspectable public var midColor: UIColor = .clear {
         didSet {
             updateUI()
         }
     }
     
-    /// End color of the gradient
+    /*
+     End color of the gradient
+     */
     @IBInspectable public var endColor: UIColor = .clear {
         didSet {
             updateUI()
         }
     }
-    
-    // MARK: - Variables
     
     private var gradientlayer = CAGradientLayer()
     
@@ -91,8 +95,6 @@ class GradientView: UIView {
             gradientlayer.endPoint = CGPoint(x: 1, y: 0)
         }
         
-        
         updateFrame()
     }
-  
 }

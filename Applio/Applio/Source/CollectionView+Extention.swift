@@ -1,6 +1,6 @@
 //
 //  CollectionView+Extention.swift
-//  Notebook
+//  Applio
 //
 //  Created by VASU SAVALIYA on 06/06/23.
 //
@@ -9,6 +9,9 @@ import UIKit
 
 extension UICollectionView {
     
+    /* Register collection view cell
+     Just you need to pass UICollectionViewCell class name and that will be register
+     */
     public func registerNib(for name: String) {
         let nib = UINib(nibName: name, bundle: nil)
         self.register(nib, forCellWithReuseIdentifier: name)
