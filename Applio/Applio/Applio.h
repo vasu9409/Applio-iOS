@@ -14,5 +14,3 @@ FOUNDATION_EXPORT double ApplioVersionNumber;
 FOUNDATION_EXPORT const unsigned char ApplioVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Applio/PublicHeader.h>
-
-
