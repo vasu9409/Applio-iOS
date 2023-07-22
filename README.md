@@ -27,6 +27,21 @@ import Applio
 self.collectionView.registerNib(for: "UICollectionViewCell")
 ```
 
+* Set Corner Radius
+```swift
+import Applio
+
+self.yourView.cornerRadius = 10
+```
+
+* Set Border
+```swift
+import Applio
+
+self.yourView.borderWidth = 1
+self.yourView.borderColor = .white
+```
+
 ## Installation
 
 ### Installation with CocoaPods
