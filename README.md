@@ -27,14 +27,14 @@ import Applio
 self.collectionView.registerNib(for: "UICollectionViewCell")
 ```
 
-* Set Corner Radius
+* Set UIView Corner Radius
 ```swift
 import Applio
 
 self.yourView.cornerRadius = 10
 ```
 
-* Set Border
+* Set UIView Border
 ```swift
 import Applio
 
