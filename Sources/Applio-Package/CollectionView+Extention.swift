@@ -9,7 +9,7 @@ import UIKit
 
 extension UICollectionView {
     
-    /* Register collection view cell
+    /** Register collection view cell
      Just you need to pass UICollectionViewCell class name and that will be register
      */
     public func registerNib(for name: String) {
