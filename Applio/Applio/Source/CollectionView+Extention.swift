@@ -16,4 +16,14 @@ extension UICollectionView {
         let nib = UINib(nibName: name, bundle: nil)
         self.register(nib, forCellWithReuseIdentifier: name)
     }
+    
+    public func registerHederNib(for name: String) {
+        let nib = UINib(nibName: name, bundle: nil)
+        self.register(nib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: name)
+    }
+    
+    public func registerHederFooterNib(for name: String) {
+        let nib = UINib(nibName: name, bundle: nil)
+        self.register(nib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: name)
+    }
 }

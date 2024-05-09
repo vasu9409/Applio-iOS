@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5908D4992BED2FF000D7D9FB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D4982BED2FF000D7D9FB /* WebService.swift */; };
+		5908D49B2BED305100D7D9FB /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D49A2BED305100D7D9FB /* AppFunctions.swift */; };
 		59FC9C5E2A699B200021C383 /* Applio.docc in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C5D2A699B200021C383 /* Applio.docc */; };
 		59FC9C5F2A699B200021C383 /* Applio.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FC9C5C2A699B200021C383 /* Applio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59FC9C872A699E430021C383 /* TextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C862A699E430021C383 /* TextField+Extention.swift */; };
@@ -14,9 +16,13 @@
 		59FC9C8B2A699E9B0021C383 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C8A2A699E9B0021C383 /* GradientView.swift */; };
 		59FC9C8D2A699EBA0021C383 /* CollectionView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */; };
 		59FC9C8F2A699ECC0021C383 /* TableView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */; };
+		6F8E16E1BA8BB5A992ABF684 /* Pods_Applio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEF1586FA3F8DA9E5FA756A /* Pods_Applio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C6C46E191E2BBCBDDC572CA /* Pods-Applio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applio.release.xcconfig"; path = "Target Support Files/Pods-Applio/Pods-Applio.release.xcconfig"; sourceTree = "<group>"; };
+		5908D4982BED2FF000D7D9FB /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		5908D49A2BED305100D7D9FB /* AppFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFunctions.swift; sourceTree = "<group>"; };
 		59FC9C592A699B200021C383 /* Applio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Applio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FC9C5C2A699B200021C383 /* Applio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Applio.h; sourceTree = "<group>"; };
 		59FC9C5D2A699B200021C383 /* Applio.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Applio.docc; sourceTree = "<group>"; };
@@ -25,6 +31,8 @@
 		59FC9C8A2A699E9B0021C383 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionView+Extention.swift"; sourceTree = "<group>"; };
 		59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+Extention.swift"; sourceTree = "<group>"; };
+		71F6359FF7C59FA8CCF6B373 /* Pods-Applio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applio.debug.xcconfig"; path = "Target Support Files/Pods-Applio/Pods-Applio.debug.xcconfig"; sourceTree = "<group>"; };
+		FBEF1586FA3F8DA9E5FA756A /* Pods_Applio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Applio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,15 +40,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8E16E1BA8BB5A992ABF684 /* Pods_Applio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24DF1A75C9BBE61C5A1CBC14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F6359FF7C59FA8CCF6B373 /* Pods-Applio.debug.xcconfig */,
+				2C6C46E191E2BBCBDDC572CA /* Pods-Applio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		59C894622A69B7A100F42A8D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				5908D49A2BED305100D7D9FB /* AppFunctions.swift */,
+				5908D4982BED2FF000D7D9FB /* WebService.swift */,
 				59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */,
 				59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */,
 				59FC9C8A2A699E9B0021C383 /* GradientView.swift */,
@@ -55,6 +75,8 @@
 			children = (
 				59FC9C5B2A699B200021C383 /* Applio */,
 				59FC9C5A2A699B200021C383 /* Products */,
+				24DF1A75C9BBE61C5A1CBC14 /* Pods */,
+				FAC797067785E51691DE3A51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +98,14 @@
 			path = Applio;
 			sourceTree = "<group>";
 		};
+		FAC797067785E51691DE3A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF1586FA3F8DA9E5FA756A /* Pods_Applio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +124,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59FC9C622A699B200021C383 /* Build configuration list for PBXNativeTarget "Applio" */;
 			buildPhases = (
+				050C68DAE5CA70E49737EE72 /* [CP] Check Pods Manifest.lock */,
 				59FC9C542A699B200021C383 /* Headers */,
 				59FC9C552A699B200021C383 /* Sources */,
 				59FC9C562A699B200021C383 /* Frameworks */,
@@ -150,6 +181,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		050C68DAE5CA70E49737EE72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Applio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59FC9C552A699B200021C383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -157,10 +213,12 @@
 			files = (
 				59FC9C872A699E430021C383 /* TextField+Extention.swift in Sources */,
 				59FC9C5E2A699B200021C383 /* Applio.docc in Sources */,
+				5908D4992BED2FF000D7D9FB /* WebService.swift in Sources */,
 				59FC9C8F2A699ECC0021C383 /* TableView+Extention.swift in Sources */,
 				59FC9C8D2A699EBA0021C383 /* CollectionView+Extention.swift in Sources */,
 				59FC9C8B2A699E9B0021C383 /* GradientView.swift in Sources */,
 				59FC9C892A699E7C0021C383 /* UIView+Extention.swift in Sources */,
+				5908D49B2BED305100D7D9FB /* AppFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +347,7 @@
 		};
 		59FC9C632A699B200021C383 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F6359FF7C59FA8CCF6B373 /* Pods-Applio.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -319,6 +378,7 @@
 		};
 		59FC9C642A699B200021C383 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6C46E191E2BBCBDDC572CA /* Pods-Applio.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -10,9 +10,10 @@ Remember to tailor the description according to the actual name of your reposito
   spec.license      = "MIT"
   spec.author       = { "Vasu Savaliya" => "vasusavaliya0000@gmail.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/vasu9409/Applio.git", :tag => "1.0.5" }
+  spec.source       = { :git => "https://github.com/vasu9409/Applio.git", :tag => "1.0.6" }
   spec.source_files  = "Applio/**/*.{h,m,swift}"
   spec.swift_version = '5.0'
+  spec.dependency 'Alamofire'
 
 
 end

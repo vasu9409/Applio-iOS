@@ -1,16 +1,23 @@
 PODS:
-  - Applio (1.0.3)
+  - Alamofire (5.9.1)
+  - Applio (1.0.5):
+    - Alamofire
 
 DEPENDENCIES:
   - Applio (from `../Applio/`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   Applio:
     :path: "../Applio/"
 
 SPEC CHECKSUMS:
-  Applio: 39037abcf817a8dbf4e81eef5a4d031fe3c668bb
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  Applio: 92930094079519205eb20df68d76f983d1f268fa
 
-PODFILE CHECKSUM: 0e0be09837c2b55031d80bf67244596256069f6e
+PODFILE CHECKSUM: a4b070086a34fb95b6aaf5f2b957b1eb5b1ed797
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.0
