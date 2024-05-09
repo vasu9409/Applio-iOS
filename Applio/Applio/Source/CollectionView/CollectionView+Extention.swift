@@ -26,4 +26,19 @@ extension UICollectionView {
         let nib = UINib(nibName: name, bundle: nil)
         self.register(nib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: name)
     }
+    
+    public func showNodataView(msg: String = "No data found.",
+                        font: UIFont = .systemFont(ofSize: 16),
+                        textColor: UIColor = .black) {
+        let label = UILabel(frame: self.frame)
+        label.text = msg
+        label.font = font
+        label.textColor = textColor
+        label.backgroundColor = .clear
+        self.backgroundView = label
+    }
+    
+    public func removeNoDataView() {
+        self.backgroundView = nil
+    }
 }

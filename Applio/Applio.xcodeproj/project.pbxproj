@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5908D4992BED2FF000D7D9FB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D4982BED2FF000D7D9FB /* WebService.swift */; };
-		5908D49B2BED305100D7D9FB /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D49A2BED305100D7D9FB /* AppFunctions.swift */; };
+		5908D4DA2BED3D8800D7D9FB /* AppFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D4D92BED3D8800D7D9FB /* AppFunction.swift */; };
+		5908D4DD2BED3DAE00D7D9FB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D4DC2BED3DAE00D7D9FB /* WebService.swift */; };
+		5908D4DF2BED3E9D00D7D9FB /* AppCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D4DE2BED3E9D00D7D9FB /* AppCommon.swift */; };
+		5908D4E12BED3F6600D7D9FB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D4E02BED3F6600D7D9FB /* BaseView.swift */; };
+		5908D4E92BED400200D7D9FB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5908D4E82BED400200D7D9FB /* ImagePicker.swift */; };
 		59FC9C5E2A699B200021C383 /* Applio.docc in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C5D2A699B200021C383 /* Applio.docc */; };
 		59FC9C5F2A699B200021C383 /* Applio.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FC9C5C2A699B200021C383 /* Applio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59FC9C872A699E430021C383 /* TextField+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FC9C862A699E430021C383 /* TextField+Extention.swift */; };
@@ -21,8 +24,11 @@
 
 /* Begin PBXFileReference section */
 		2C6C46E191E2BBCBDDC572CA /* Pods-Applio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Applio.release.xcconfig"; path = "Target Support Files/Pods-Applio/Pods-Applio.release.xcconfig"; sourceTree = "<group>"; };
-		5908D4982BED2FF000D7D9FB /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		5908D49A2BED305100D7D9FB /* AppFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFunctions.swift; sourceTree = "<group>"; };
+		5908D4D92BED3D8800D7D9FB /* AppFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFunction.swift; sourceTree = "<group>"; };
+		5908D4DC2BED3DAE00D7D9FB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		5908D4DE2BED3E9D00D7D9FB /* AppCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommon.swift; sourceTree = "<group>"; };
+		5908D4E02BED3F6600D7D9FB /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5908D4E82BED400200D7D9FB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		59FC9C592A699B200021C383 /* Applio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Applio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FC9C5C2A699B200021C383 /* Applio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Applio.h; sourceTree = "<group>"; };
 		59FC9C5D2A699B200021C383 /* Applio.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Applio.docc; sourceTree = "<group>"; };
@@ -56,16 +62,67 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5908D4E22BED3F7D00D7D9FB /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		5908D4E32BED3F8400D7D9FB /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		5908D4E42BED3F8D00D7D9FB /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				59FC9C8A2A699E9B0021C383 /* GradientView.swift */,
+				59FC9C882A699E7C0021C383 /* UIView+Extention.swift */,
+				5908D4E02BED3F6600D7D9FB /* BaseView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		5908D4E52BED3F9700D7D9FB /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				59FC9C862A699E430021C383 /* TextField+Extention.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		5908D4E62BED3FA500D7D9FB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5908D4D92BED3D8800D7D9FB /* AppFunction.swift */,
+				5908D4DE2BED3E9D00D7D9FB /* AppCommon.swift */,
+				5908D4DC2BED3DAE00D7D9FB /* WebService.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5908D4E72BED3FF800D7D9FB /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5908D4E82BED400200D7D9FB /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
 		59C894622A69B7A100F42A8D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5908D49A2BED305100D7D9FB /* AppFunctions.swift */,
-				5908D4982BED2FF000D7D9FB /* WebService.swift */,
-				59FC9C8E2A699ECC0021C383 /* TableView+Extention.swift */,
-				59FC9C8C2A699EBA0021C383 /* CollectionView+Extention.swift */,
-				59FC9C8A2A699E9B0021C383 /* GradientView.swift */,
-				59FC9C882A699E7C0021C383 /* UIView+Extention.swift */,
-				59FC9C862A699E430021C383 /* TextField+Extention.swift */,
+				5908D4E72BED3FF800D7D9FB /* ImagePicker */,
+				5908D4E62BED3FA500D7D9FB /* Helper */,
+				5908D4E52BED3F9700D7D9FB /* TextField */,
+				5908D4E42BED3F8D00D7D9FB /* UIView */,
+				5908D4E32BED3F8400D7D9FB /* CollectionView */,
+				5908D4E22BED3F7D00D7D9FB /* TableView */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -213,12 +270,15 @@
 			files = (
 				59FC9C872A699E430021C383 /* TextField+Extention.swift in Sources */,
 				59FC9C5E2A699B200021C383 /* Applio.docc in Sources */,
-				5908D4992BED2FF000D7D9FB /* WebService.swift in Sources */,
+				5908D4DD2BED3DAE00D7D9FB /* WebService.swift in Sources */,
+				5908D4DF2BED3E9D00D7D9FB /* AppCommon.swift in Sources */,
+				5908D4DA2BED3D8800D7D9FB /* AppFunction.swift in Sources */,
 				59FC9C8F2A699ECC0021C383 /* TableView+Extention.swift in Sources */,
 				59FC9C8D2A699EBA0021C383 /* CollectionView+Extention.swift in Sources */,
+				5908D4E92BED400200D7D9FB /* ImagePicker.swift in Sources */,
+				5908D4E12BED3F6600D7D9FB /* BaseView.swift in Sources */,
 				59FC9C8B2A699E9B0021C383 /* GradientView.swift in Sources */,
 				59FC9C892A699E7C0021C383 /* UIView+Extention.swift in Sources */,
-				5908D49B2BED305100D7D9FB /* AppFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
