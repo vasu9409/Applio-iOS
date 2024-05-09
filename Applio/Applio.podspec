@@ -14,6 +14,7 @@ Remember to tailor the description according to the actual name of your reposito
   spec.source_files  = "Applio/**/*.{h,m,swift}"
   spec.swift_version = '5.0'
   spec.dependency 'Alamofire'
+  spec.dependency 'MBProgressHUD'
 
 
 end
