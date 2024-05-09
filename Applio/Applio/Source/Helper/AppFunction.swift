@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import MBProgressHUD
 
 /* you want to add some action in main thread then use delay */
 public func delay(_ delay: Double = 0.2, closure: @escaping () -> ()) {
@@ -15,14 +14,6 @@ public func delay(_ delay: Double = 0.2, closure: @escaping () -> ()) {
         let when = DispatchTime.now() + delay
         DispatchQueue.main.asyncAfter(deadline: when, execute: closure)
     }
-}
-
-public func showLoader() {
-    MBProgressHUD.showAdded(to: getRootViewController()?.view ?? UIView(), animated: true)
-}
-
-public func hideLoader() {
-    MBProgressHUD.hide(for: getRootViewController()?.view ?? UIView(), animated: true)
 }
 
 public func debugPrint(_ message: String, file: String = #file, line: Int = #line, function: String = #function) {

@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 import UniformTypeIdentifiers
 import PDFKit
-import MBProgressHUD
 
 public protocol ImagePickerDelegate: AnyObject {
     func didSelect(image: UIImage?)
@@ -213,7 +212,6 @@ open class ImagePicker: NSObject, UINavigationControllerDelegate, UIDocumentPick
     
     private func pickerController(_ controller: UIImagePickerController, didSelect image: UIImage?) {
         guard let image else { controller.dismiss(animated: true, completion: nil); return }
-        MBProgressHUD.showAdded(to: getRootViewController()?.view ?? UIView(), animated: true)
         self.delegate?.didSelect(image: image)
     }
 }
